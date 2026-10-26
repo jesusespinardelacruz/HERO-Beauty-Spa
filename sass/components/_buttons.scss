@@ -1,0 +1,17 @@
+.btn{
+    @include button();
+    transition: all .5s ease;
+    &:hover{
+        background-color: $color-background;
+        color: $color-primary;
+    }
+}
+
+.button-book{
+    @include button();
+    transition: all .5s ease;
+    &:hover{
+        background-color: $color-background;
+        color: $color-primary;
+    }
+}

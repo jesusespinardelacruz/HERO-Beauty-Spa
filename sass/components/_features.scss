@@ -1,0 +1,40 @@
+
+.features{
+    @include reset-list();
+    justify-content: space-between;
+    margin-top: -30px;
+    margin-left: 50px;
+    width: 400px;
+    padding: 20px;
+    background-color: $color-background;
+
+  article{
+    @include reset-list();
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .feature-icon{
+    width: 60px;
+    height: 60px;
+    background-color: $color-secondary;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  
+    img{
+        width: 45px;
+        height: 45px;
+    }
+
+  }
+  h3 {
+    margin-top: 5px;
+    margin-bottom: 2px;
+  }
+  
+}

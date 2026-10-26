@@ -1,0 +1,33 @@
+.page-background {
+  width: 100%;
+  min-height: 750px;
+  position: relative;
+
+  background-image:
+    url("../img/woman.png"),
+    url("../img/vectoropacity.png"),
+    linear-gradient(
+      to right,
+      #fbfaf7 0 67%,
+      #A8D3CA 67% 100%
+    ),
+    linear-gradient(
+      to bottom,
+      #ffffff,
+      #ffffff
+    );
+
+  background-size:
+    50% auto,
+    30% auto,
+    100% 600px,
+    100% 100%;
+
+  background-repeat: no-repeat;
+
+  background-position:
+    80% 0px,
+    90% 75px,
+    top left,
+    top left;
+}

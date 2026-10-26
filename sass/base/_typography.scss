@@ -1,0 +1,30 @@
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.30;
+  color: $color-primary;
+  width: 500px;
+}
+
+h3 {
+  color: $color-primary;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: $color-subtext;
+  max-width: 600px;
+}
+
+a {
+  color: inherit;
+  font-size: 15px;
+  text-decoration: none;
+}

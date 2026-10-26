@@ -1,0 +1,52 @@
+.hero {
+    width: 809px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+    p{
+        margin-top: 30px;
+        margin-bottom: 40px;
+        font-size: 18px
+        
+    }
+    ul{
+        @include reset-list();
+        font-size: 18px;
+        gap: 32px;
+        margin-top: 30px;
+        margin-bottom: 90px;
+    }
+
+    .button-watch{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        text-decoration: none;
+        color: $color-primary;
+        transition: opacity .3s ease;
+        &:hover {
+            span:nth-child(2){
+                opacity: 0.7;
+            }
+
+        }
+           
+    } 
+
+    .play-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        background-color: $color-background;
+        border-radius: 50%;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+
+    }
+}
+
+
+
+
+

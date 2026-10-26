@@ -1,0 +1,52 @@
+header{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    .login{
+        ul {
+            @include reset-list();
+            gap: 40px;
+        }
+    }
+    .nav-primary{
+        margin-left: 140px;
+    }
+
+    .nav-icons{
+        ul {
+            @include reset-list();
+            gap: 30px; 
+            margin-left: 100px; 
+            li img {
+                width: clamp(22px, 1.67vw, 36px);
+            }
+
+            li:nth-child(2) img {
+                width: clamp(15px, 1.35vw, 20px);
+            }
+
+        } 
+    } 
+
+    .login{
+        margin-left: 60px;
+       
+        ul {
+            gap: 20px;
+            font-size: 15px;
+        }
+
+    }
+    .button-signin{
+        margin-left: 20px;
+        color: $color-primary;
+        &:hover {
+            color: white;
+        }
+    }    
+}
+
+
+
